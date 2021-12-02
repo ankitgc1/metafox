@@ -2,11 +2,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar, Nav, Container, Row, Col, Button} from 'react-bootstrap';
 import logo from './logo.png'; 
-import bgImg from './images/bg.jpg'
+import bgImg from './images/bg.png'
 import dis from './images/discord.png'
 import mid from './images/medium.png'
 import twitter from './images/twitter.png'
-
+// import "http://fonts.cdnfonts.com/css/akira-expanded" 
+                
 function App() {
   const styles = {
     backgroundColor: 'rgba(0, 0, 0)',
@@ -74,20 +75,20 @@ function App() {
 
       <Container className="middle">
         <Row className="d-flex justify-content-center text-center white">
-          <h1 className="heading"><strong>METAFLEX</strong></h1>
-          <h1 className="heading"><strong>DAO</strong></h1>
+          <h1 className="heading">METAFLEX</h1>
+          <h1 className="heading">DAO</h1>
         </Row>
         <Row className="d-flex justify-content-center text-center white">
-          <h3><strong>METAFLEX IS FIRST MEME RELATED DECENTRALIZED RESERVE CURRENCY.</strong></h3>
+          <h3 className="para">METAFLEX IS FIRST MEME RELATED DECENTRALIZED RESERVE CURRENCY.</h3>
         </Row>
         <Row className="d-flex justify-content-center text-center white">
-          <h3><strong>WHICH IS BACKED BY BASKET OF CRYPTO ASSETS IN TREASURY.</strong></h3>
+          <h3 className="para">WHICH IS BACKED BY BASKET OF CRYPTO ASSETS IN TREASURY.</h3>
         </Row>
         <Row className="d-flex justify-content-center text-center white">
-          <h3><strong>$MTFX IS RESERVE CURRENCY RUNNING ON BSC NETWORK WITH SELF-OWNED LIQUIDITY.</strong></h3>
+          <h3 className="para">$MTFX IS RESERVE CURRENCY RUNNING ON BSC NETWORK WITH SELF-OWNED LIQUIDITY.</h3>
         </Row>
         <Row className="d-flex justify-content-center text-center white">
-          <h3><strong>BUILT WEALTH WITH YOUR FAVORITE TOKEN.</strong></h3>
+          <h3 className="para">BUILT WEALTH WITH YOUR FAVORITE TOKEN.</h3>
         </Row>
         {/* <Row className="mt-5 d-flex justify-content-center text-center white">
           <h3><strong className="yellow">FOR MORE INFO JOIN OUR DISCORD</strong></h3>
@@ -104,15 +105,15 @@ function App() {
             </a>
           </strong></h3>
         </Row> */}
-        {/* <Row className="d-flex justify-content-center text-center white">
+        <Row className="mt-5 d-flex justify-content-center text-center white">
           <Col>
-            <Button variant="secondary" size="lg">DASHBAORD</Button>{' '}
+            <Button id="action" variant="secondary" size="lg"><span>DASHBAORD</span></Button>{' '}
           </Col>
           <Col>
-            <Button variant="secondary" size="lg">PRESALE</Button>{' '}
+            <Button id="action" variant="secondary" size="lg"><span>PRESALE</span></Button>{' '}
             </Col>
           
-        </Row> */}
+        </Row>
       </Container>
 
       <Container fluid fixed="bottom" >

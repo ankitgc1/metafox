@@ -43,16 +43,29 @@
 }
 
 .heading{
-  font-family: 'Akira Expanded', sans-serif;
+  font-family: Akira;
+  font-weight: bolder;
   font-size: 72px;
+}
+.para{
+  font-family: akira;
+  font-weight: bold;
 }
 .middle{
   /* position: relative; */
-  margin-top: 10%;
+  margin-top: 8%;
 }
 .round{
   color: rgb(255, 255, 255);
 }
 .yellow{
   color: yellow;
+}
+
+#action{
+  font-family: akira;
+  width: 200px;
+  height: 55px;
+  background-color: rgb(110, 116, 122, 0.5);
+  border-radius: 36px;
 }
