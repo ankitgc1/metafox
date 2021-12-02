@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+.white{
+  color: white;
+}
+
+.heading{
+  font-family: 'Akira Expanded', sans-serif;
+  font-size: 72px;
+}
+.middle{
+  /* position: relative; */
+  margin-top: 10%;
+}
+.round{
+  color: rgb(255, 255, 255);
+}
+.yellow{
+  color: yellow;
+}
