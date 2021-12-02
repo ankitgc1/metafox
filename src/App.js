@@ -107,10 +107,10 @@ function App() {
         </Row> */}
         <Row className="mt-5 d-flex justify-content-center text-center white">
           <Col>
-            <Button id="action" variant="secondary" size="lg"><span>DASHBAORD</span></Button>{' '}
+            <Button id="dash" variant="secondary" size="lg"><span>DASHBAORD</span></Button>{' '}
           </Col>
           <Col>
-            <Button id="action" variant="secondary" size="lg"><span>PRESALE</span></Button>{' '}
+            <Button id="pre" variant="secondary" size="lg"><span>PRESALE</span></Button>{' '}
             </Col>
           
         </Row>
