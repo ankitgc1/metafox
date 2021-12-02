@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/metafox/static/css/main.787325b7.chunk.css",
+    "main.js": "/metafox/static/js/main.26079564.chunk.js",
+    "main.js.map": "/metafox/static/js/main.26079564.chunk.js.map",
+    "runtime-main.js": "/metafox/static/js/runtime-main.9909ad51.js",
+    "runtime-main.js.map": "/metafox/static/js/runtime-main.9909ad51.js.map",
+    "static/css/2.4659568d.chunk.css": "/metafox/static/css/2.4659568d.chunk.css",
+    "static/js/2.35f47f02.chunk.js": "/metafox/static/js/2.35f47f02.chunk.js",
+    "static/js/2.35f47f02.chunk.js.map": "/metafox/static/js/2.35f47f02.chunk.js.map",
+    "static/js/3.b9c25c4c.chunk.js": "/metafox/static/js/3.b9c25c4c.chunk.js",
+    "static/js/3.b9c25c4c.chunk.js.map": "/metafox/static/js/3.b9c25c4c.chunk.js.map",
+    "index.html": "/metafox/index.html",
+    "static/css/2.4659568d.chunk.css.map": "/metafox/static/css/2.4659568d.chunk.css.map",
+    "static/css/main.787325b7.chunk.css.map": "/metafox/static/css/main.787325b7.chunk.css.map",
+    "static/js/2.35f47f02.chunk.js.LICENSE.txt": "/metafox/static/js/2.35f47f02.chunk.js.LICENSE.txt",
+    "static/media/bg.889edc5d.jpg": "/metafox/static/media/bg.889edc5d.jpg",
+    "static/media/discord.2ffb99b7.png": "/metafox/static/media/discord.2ffb99b7.png",
+    "static/media/logo.ca01c43f.png": "/metafox/static/media/logo.ca01c43f.png",
+    "static/media/medium.722a7e3f.png": "/metafox/static/media/medium.722a7e3f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9909ad51.js",
+    "static/css/2.4659568d.chunk.css",
+    "static/js/2.35f47f02.chunk.js",
+    "static/css/main.787325b7.chunk.css",
+    "static/js/main.26079564.chunk.js"
+  ]
+}
