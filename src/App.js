@@ -75,7 +75,7 @@ function App() {
 
       <Container className="middle">
         <Row className="d-flex justify-content-center text-center white">
-          <h1 className="heading">METAFLEX</h1>
+          <h1 className="heading">METAFOX</h1>
           <h1 className="heading">DAO</h1>
         </Row>
         <Row className="d-flex justify-content-center text-center white">
