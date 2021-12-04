@@ -79,7 +79,7 @@ function App() {
           <h1 className="heading">DAO</h1>
         </Row>
         <Row className="d-flex justify-content-center text-center white">
-          <h3 className="para">METAFLEX IS FIRST MEME RELATED DECENTRALIZED RESERVE CURRENCY.</h3>
+          <h3 className="para">METAFOX IS FIRST MEME RELATED DECENTRALIZED RESERVE CURRENCY.</h3>
         </Row>
         <Row className="d-flex justify-content-center text-center white">
           <h3 className="para">WHICH IS BACKED BY BASKET OF CRYPTO ASSETS IN TREASURY.</h3>
