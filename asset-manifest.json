@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/metafox/static/css/main.39b91a1e.chunk.css",
-    "main.js": "/metafox/static/js/main.df5e6171.chunk.js",
-    "main.js.map": "/metafox/static/js/main.df5e6171.chunk.js.map",
+    "main.js": "/metafox/static/js/main.4997ab04.chunk.js",
+    "main.js.map": "/metafox/static/js/main.4997ab04.chunk.js.map",
     "runtime-main.js": "/metafox/static/js/runtime-main.ddd3be6e.js",
     "runtime-main.js.map": "/metafox/static/js/runtime-main.ddd3be6e.js.map",
     "static/css/2.4659568d.chunk.css": "/metafox/static/css/2.4659568d.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.4659568d.chunk.css",
     "static/js/2.da181083.chunk.js",
     "static/css/main.39b91a1e.chunk.css",
-    "static/js/main.df5e6171.chunk.js"
+    "static/js/main.4997ab04.chunk.js"
   ]
 }
