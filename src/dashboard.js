@@ -27,7 +27,7 @@ function Dashboard (){
     
           <Container className="middle">
             <Row className="d-flex justify-content-center text-center white">
-              <h3 className="para">SECURE YOUR $$MTFX TODAY AT DISCOUNED PRICE.</h3>
+              <h3 className="para">SECURE YOUR $MTFX TODAY AT DISCOUNED PRICE.</h3>
             </Row>
             <Row className="mt-4 d-flex justify-content-center text-center white">
               <h3 className="para">
