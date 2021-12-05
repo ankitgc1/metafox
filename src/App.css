@@ -53,7 +53,7 @@
 }
 .middle{
   /* position: relative; */
-  margin-top: 8%;
+  padding-top: 18%;
 }
 .round{
   color: rgb(255, 255, 255);
@@ -61,14 +61,32 @@
 .yellow{
   color: yellow;
 }
-
-#dash, #pre{
+.dash{
+  text-decoration: none;
+  color: white;
+}
+.dash:hover{
+  color: white
+}
+.bar{
+  height: 3rem;
+}
+.blur{
+  color: rgba(255, 255, 255, 0.7);
+}
+#dash, #pre, #by{
   font-family: akira;
   width: 200px;
   height: 65px;
   background-color: rgb(110, 116, 122, 0.5);
   border-radius: 36px;
 }
+
+.progress-custom {
+  background-color: purple;
+  color: white;
+}
+
 #dash{
   margin-right: -80px;
 }

@@ -1,13 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar, Nav, Container, Row, Col, Button} from 'react-bootstrap';
-import logo from './logo.png'; 
+import {Container, Row, Col, Button} from 'react-bootstrap';
 import bgImg from './images/bg.png'
-import dis from './images/discord.png'
-import mid from './images/medium.png'
-import twitter from './images/twitter.png'
+
 // import "http://fonts.cdnfonts.com/css/akira-expanded" 
-                
+import {
+  Link
+} from "react-router-dom";
+
 function App() {
   const styles = {
     backgroundColor: 'rgba(0, 0, 0)',
@@ -15,7 +15,7 @@ function App() {
     // opacity: '0.5',  
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
-    backgroundSize: '100%',
+    // backgroundSize: '100%',
     backgroundSize: 'cover',
     minHeight: '100%',
     width: '100%',
@@ -23,55 +23,6 @@ function App() {
   };
   return (
     <main style={styles}>
-      <Navbar expand="lg" variant="dark">
-        <Container fluid>
-          <Navbar.Brand href="#home"> 
-          <img
-            src={logo}
-            width="100"
-            height="60"
-            className="d-inline-block align-top"
-            alt="React Bootstrap logo"
-          />
-      </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-            <Nav.Link>
-                <a className="socail" rel="noopener noreferrer" target="_blank" href="https://metafox.medium.com/">
-                  <img className="round"
-                    alt=""
-                    src={mid}
-                    width="30"
-                    height="30"
-                  />
-                </a>
-              </Nav.Link>
-              <Nav.Link>
-                <a className="socail" rel="noopener noreferrer" target="_blank" href="https://twitter.com/metafoxdao">
-                  <img className="round"
-                    alt=""
-                    src={twitter}
-                    width="30"
-                    height="30"
-                  />
-                </a>
-              </Nav.Link>
-              <Nav.Link>
-                <a className="socail" rel="noopener noreferrer" target="_blank" href="https://discord.gg/8B9QYp89s">
-                  <img className="round"
-                    alt=""
-                    src={dis}
-                    width="30"
-                    height="30"
-                  />
-                </a>
-              </Nav.Link>
-              {/* <Nav.Link href="#link">Link</Nav.Link> */}
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
 
       <Container className="middle">
         <Row className="d-flex justify-content-center text-center white">
@@ -107,10 +58,10 @@ function App() {
         </Row> */}
         <Row className="mt-5 d-flex justify-content-center text-center white">
           <Col>
-            <Button id="dash" variant="secondary" size="lg"><span>DASHBAORD</span></Button>{' '}
+            <Button id="dash" variant="secondary" size="lg"><strong><Link className="dash" to="/dashboard">DASHBOARD</Link></strong></Button>{' '}
           </Col>
           <Col>
-            <Button id="pre" variant="secondary" size="lg"><span>PRESALE</span></Button>{' '}
+            <Button id="pre" variant="secondary" size="lg"><strong>PRESALE</strong></Button>{' '}
             </Col>
           
         </Row>

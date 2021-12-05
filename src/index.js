@@ -3,10 +3,25 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Dashboard from './dashboard';
+import Navbar from './navbar'
+ReactDOM.render
+(
   <React.StrictMode>
-    <App />
+    <Router>
+    <Navbar />
+      <Routes>
+        {/* <Route exact path="/"> <App /></Route> */}
+        {/* <Route exact path="/dashboard"> <Dashboard /></Route> */}
+        <Route exact path="/" element={<App />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
