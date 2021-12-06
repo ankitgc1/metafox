@@ -61,7 +61,7 @@
 .yellow{
   color: yellow;
 }
-.dash{
+.dash, #add-link{
   text-decoration: none;
   color: white;
 }
@@ -81,11 +81,15 @@
   background-color: rgb(110, 116, 122, 0.5);
   border-radius: 36px;
 }
-
-.progress-custom {
-  background-color: purple;
-  color: white;
+#address{
+  font-family: akira;
+  padding-top: 10px;
+  font-size: 30px;
+  background-color: rgb(110, 116, 122, 0.5);
+  border-radius: 36px;
+  height: 65px;
 }
+
 
 #dash{
   margin-right: -80px;
