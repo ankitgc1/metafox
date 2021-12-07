@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0a128d3c9084dc1bc6fd8028060840a",
+    "revision": "77e84146aefc4a0f5dc84c8406ee0e86",
     "url": "/metafox/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metafox/static/css/2.68a81a89.chunk.css"
   },
   {
-    "revision": "422de2b6ebed9f3318a2",
+    "revision": "5b722f103d4f727ca8ab",
     "url": "/metafox/static/css/main.67e38394.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metafox/static/js/3.a7d68c53.chunk.js"
   },
   {
-    "revision": "422de2b6ebed9f3318a2",
-    "url": "/metafox/static/js/main.1fa24c03.chunk.js"
+    "revision": "5b722f103d4f727ca8ab",
+    "url": "/metafox/static/js/main.8d458916.chunk.js"
   },
   {
     "revision": "608410a95780729dcdf6",

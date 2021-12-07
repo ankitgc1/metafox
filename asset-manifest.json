@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/metafox/static/css/main.67e38394.chunk.css",
-    "main.js": "/metafox/static/js/main.1fa24c03.chunk.js",
-    "main.js.map": "/metafox/static/js/main.1fa24c03.chunk.js.map",
+    "main.js": "/metafox/static/js/main.8d458916.chunk.js",
+    "main.js.map": "/metafox/static/js/main.8d458916.chunk.js.map",
     "runtime-main.js": "/metafox/static/js/runtime-main.b57c3757.js",
     "runtime-main.js.map": "/metafox/static/js/runtime-main.b57c3757.js.map",
     "static/css/2.68a81a89.chunk.css": "/metafox/static/css/2.68a81a89.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.a7d68c53.chunk.js": "/metafox/static/js/3.a7d68c53.chunk.js",
     "static/js/3.a7d68c53.chunk.js.map": "/metafox/static/js/3.a7d68c53.chunk.js.map",
     "index.html": "/metafox/index.html",
-    "precache-manifest.1f27383be52cae990a22f7652e60e2bd.js": "/metafox/precache-manifest.1f27383be52cae990a22f7652e60e2bd.js",
+    "precache-manifest.fde28108b31530489de1d4fbd06db2ac.js": "/metafox/precache-manifest.fde28108b31530489de1d4fbd06db2ac.js",
     "service-worker.js": "/metafox/service-worker.js",
     "static/css/2.68a81a89.chunk.css.map": "/metafox/static/css/2.68a81a89.chunk.css.map",
     "static/css/main.67e38394.chunk.css.map": "/metafox/static/css/main.67e38394.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.68a81a89.chunk.css",
     "static/js/2.6d9044bb.chunk.js",
     "static/css/main.67e38394.chunk.css",
-    "static/js/main.1fa24c03.chunk.js"
+    "static/js/main.8d458916.chunk.js"
   ]
 }
